@@ -122,9 +122,9 @@ int setpkg(struct attackinfo *para){
 
 	//char new_ip[sizeof "255.255.255.255"];
 
-	int s = socket(PF_INET, SOCK_RAW, IPPROTO_UDP);
+	int s = socket(PF_INET, SOCK_RAW, IPPROTO_RAW);
 	if(s < 0){
-    	fprintf(stderr, "Could not open raw socket.\n");
+    	fprintf(stderr, "Could not open raw socket,try running as root`\n");
 		exit(-1);
 	}
 
