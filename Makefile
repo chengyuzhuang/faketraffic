@@ -9,4 +9,4 @@ all:$(OBJS)
 	$(CC) $(OBJS) -o udpgencl
 
 clean:
-	rm -rf *.o
+	rm -rf *.o udpgencl

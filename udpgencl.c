@@ -1,7 +1,7 @@
 /*
  本程序作为大带宽用户打量使用
 */
-#define USAGE "Usage: %s [-v] -[s source ip addre] [-d dest ip address] [-l PACKET_LENGTH_IN_BYTES] [-b BANDWIDTH_IN_BYTES_PER_SEC] -[p PORT]\n"
+#define USAGE "Usage: %s [-v] -[s source ip addre] [-d dest ip address] [-l PACKET_LENGTH_IN_BYTES] [-b BANDWIDTH_IN_MEGA_BYTES_PER_SEC] -[p PORT]\n"
 
 #include <stdio.h>
 #include <stdlib.h>
